@@ -10,6 +10,7 @@ export default (props) => {
 
       <div
         style={{
+          fontFamily: '"Inter", sans-serif', 
           position: "absolute",
           left: 0,
           right: 0,
@@ -18,13 +19,7 @@ export default (props) => {
           bottom: 0,
         }}
       >
-        Use ← → or swipe to navigate. By{" "}
-        <a href="https://twitter.com/rauchg" target="_blank">
-          @rauchg
-        </a>{" "}
-        <a href="https://github.com/rauchg/berkshire-deck-demo" target="_blank">
-          (source)
-        </a>
+        Use ← → or swipe to navigate.
       </div>
     </div>
   );

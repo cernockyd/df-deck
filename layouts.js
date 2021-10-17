@@ -18,7 +18,23 @@ export const Green = ({children}) => (
       height: '100vh',
       display: 'flex',
       alignItems: 'center',
+      justifyContent: 'center',
       backgroundColor: 'green',
+      color: 'white'
+    }}>
+    {children}
+  </div>
+)
+
+export const Orange = ({children}) => (
+  <div
+    style={{
+      width: '100vw',
+      height: '100vh',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: 'darkorange',
       color: 'white'
     }}>
     {children}
