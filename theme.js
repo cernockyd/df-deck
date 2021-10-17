@@ -7,7 +7,7 @@ export default {
     h1: {
       textAlign: 'center',
       mx: '48px',
-    }
+    },
   },
   colors: {
     primary: 'blue',

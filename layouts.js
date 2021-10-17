@@ -49,7 +49,7 @@ export const Think = ({children}) => (
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      backgroundColor: 'yellow',
+      backgroundColor: 'white',
       color: 'black'
     }}>
     {children}

@@ -7,6 +7,7 @@ import generator from './static/generator.png'
 import game from './static/gen-discrim.png'
 import trends from './static/trends.png'
 import ian from './static/ian.png'
+import neural from './static/neural-net.png'
 export const theme = { ...myTheme };
 
 # Deepfake
@@ -15,13 +16,15 @@ TIM Mistrovské lekce – Dalibor Černocký KISK FF
 
 ---
 
-1. Co je deepfake?
-2. Motivace
-3. Výzvy a úskalí DF
+### Co je deepfake?
 
-4. Aktuální stav
-5. Pozitivní využití
-6. Co zahrnuje tvorba?
+### Motivace
+
+### Negativní dopady DF
+
+### ‘Pozitivní’ využití
+
+### Pár slov o tvorbě DF
 
 
 ---
@@ -34,55 +37,21 @@ TIM Mistrovské lekce – Dalibor Černocký KISK FF
 
 ---
 
-# ‘deep’ podle deep learningu
-
-Využití hlubokých neuronových sítí.
+# ‘deep’ podle deep learningu.
 
 ---
 
-<div style={{
-  display: 'flex',
-  margin: '0 2em 0 1em'
-}}>
+<img src={neural} style={{objectFit: 'contain', width: '60%'}} />
+
+Větší množství skrytých vrstev umožňuje zachytit složité vztahy.
+
+---
 
 <img src={discriminator} style={{objectFit: 'contain', width: '60%'}} />
-  
-<div style={{marginLeft: '2em'}}>
-
-<img src={data} style={{objectFit: 'contain'}} />
-
-<h3>Minimalizace rozdílu odhadu od reality</h3>
-
-1. vybere fotografii z tabulky
-2. odhadne, zdali je reálná či nikoli
-3. podívá se do tabulky na správnou odpověď
-4. upraví vnitřní rozhodovací mechanismus, aby minimalizoval chybovost
-5. zpět na 1. s další fotografií
-
-
-</div>
-
-</div>
 
 ---
 
-<div style={{
-  display: 'flex',
-  margin: '0 2em 0 1em'
-}}>
-
 <img src={generator} style={{objectFit: 'contain', width: '60%'}} />
-  
-<div style={{marginLeft: '2em'}}>
-  <h3>Generování obsahu</h3>
-
-  1. dostane náhodnou sekvenci čísel
-  2. na základě sekvence vygeneruje obsah
-  3. na základě zpětné vazby diskriminátoru upraví generování
-
-</div>
-
-</div>
 
 ---
 
@@ -118,7 +87,16 @@ Vyhledávanost pojmu deepfake podle Google Trends za posledních 5 let
 
 ---
 
+# Výzvy a statistiky?
+
+---
+
 # Kvalitní fake profily jsou k nerozeznání od běžných.
+
+
+---
+
+# Kolik % profilů na Facebooku je podle vás falešných?
 
 ---
 
@@ -167,7 +145,47 @@ poškozuje ženy
 
 ---
 
+TODO: X-ray app
+
+---
+
+# ~ 104,852
+
+žen „svlečeno“ pomocí deepfake botů na Telegramu do konce června 2020 
+
+---
+
+# 198 %
+
+nárust využití deepfake botů pro „svlečení“ za poslední 3 měsíce (k říjnu 2020)
+
+---
+
+# Co byste v takové situaci dělali?
+
+---
+
 # Může automatická detekce DF přispět k jeho zlepšení?
+
+---
+
+todo: detekce, fotka
+
+---
+
+# “So when your mom calls and says she needs $500 wired to the Cayman Islands, ask yourself …”
+
+– Jesse Vig, NLP researcher
+
+---
+
+# “Deepfakes reduce the amount of information that videos carry to viewers”
+
+<Notes>
+
+Lidé si zvykli, že tvořit textový obsah je poměrně snadné a že se dezinformančí weby se snaží vypadat jako ty seriózní. Podobně si budou muset zvyknout i na obrazový materiál.
+
+</Notes>
 
 ---
 
@@ -185,17 +203,20 @@ poškozuje ženy
 
 ---
 
-<Think>
-<div style={{
-  textAlign: 'center'
-}}>
 
-# “So when your mom calls and says she needs $500 wired to the Cayman Islands, ask yourself …”
+# Měli bychom předpokládat, že cokoli může být nepravda?
 
-– Jesse Vig, NLP researcher
+<Notes>
 
-</div>
-</Think>
+Informační overload. 
+
+</Notes>
+
+---
+
+# Pozitivní využití?
+
+---
 
 ---
 
