@@ -41,6 +41,21 @@ export const Orange = ({children}) => (
   </div>
 )
 
+export const Think = ({children}) => (
+  <div
+    style={{
+      width: '100vw',
+      height: '100vh',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: 'yellow',
+      color: 'black'
+    }}>
+    {children}
+  </div>
+)
+
 export const BgImage = ({children, image}) => (
   <div
     style={{

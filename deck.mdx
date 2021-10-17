@@ -1,7 +1,8 @@
 import Provider from './provider'
 import myTheme from './theme'
-import { Green, Orange, BgImage } from './layouts'
+import { Green, Orange, BgImage, Think } from './layouts'
 import discriminator from './static/discriminator.png'
+import data from './static/data.png'
 import generator from './static/generator.png'
 import game from './static/gen-discrim.png'
 import trends from './static/trends.png'
@@ -39,19 +40,57 @@ Využití hlubokých neuronových sítí.
 
 ---
 
-<img src={discriminator} />
+<div style={{
+  display: 'flex',
+  margin: '0 2em 0 1em'
+}}>
+
+<img src={discriminator} style={{objectFit: 'contain', width: '60%'}} />
+  
+<div style={{marginLeft: '2em'}}>
+
+<img src={data} style={{objectFit: 'contain'}} />
+
+<h3>Minimalizace rozdílu odhadu od reality</h3>
+
+1. vybere fotografii z tabulky
+2. odhadne, zdali je reálná či nikoli
+3. podívá se do tabulky na správnou odpověď
+4. upraví vnitřní rozhodovací mechanismus, aby minimalizoval chybovost
+5. zpět na 1. s další fotografií
+
+
+</div>
+
+</div>
 
 ---
 
-<img src={generator} />
+<div style={{
+  display: 'flex',
+  margin: '0 2em 0 1em'
+}}>
+
+<img src={generator} style={{objectFit: 'contain', width: '60%'}} />
+  
+<div style={{marginLeft: '2em'}}>
+  <h3>Generování obsahu</h3>
+
+  1. dostane náhodnou sekvenci čísel
+  2. na základě sekvence vygeneruje obsah
+  3. na základě zpětné vazby diskriminátoru upraví generování
+
+</div>
+
+</div>
 
 ---
 
-<img src={game} />
+<img src={game} style={{objectFit: 'contain', width: '80%'}} />
 
 ---
 
-<img src={trends} />
+<img src={trends} style={{width: '100%'}} />
 
 Vyhledávanost pojmu deepfake podle Google Trends za posledních 5 let
 
@@ -77,3 +116,87 @@ Vyhledávanost pojmu deepfake podle Google Trends za posledních 5 let
 
 </Orange>
 
+---
+
+# Kvalitní fake profily jsou k nerozeznání od běžných.
+
+---
+
+# Facebook zaznamenává miliony pokusů o vytvoření falešných profilů (2019)
+
+---
+
+# ~ 5 %
+
+profilů na Facebooku je falešných
+
+---
+
+# A co další soc. sítě?
+
+---
+
+# Deepfake videa v roce 2019 podle výzkumu společnosti Deeptrace (dnes Senity)
+
+---
+
+# 14,678
+
+deepfake videí online
+
+---
+
+# 100 %
+
+nárust deepfake online videí proti
+předešlému roku
+
+---
+
+# 96 %
+
+deepfake videí na internetu
+má pornografickou povahu 
+
+---
+
+# ~ 100 % 
+
+deepfake videí pornografické povahy
+poškozuje ženy
+
+---
+
+# Může automatická detekce DF přispět k jeho zlepšení?
+
+---
+
+<Green>
+<div style={{
+  textAlign: 'center'
+}}>
+
+# “Možná bychom si měli definovat pravdu jako proces a ne jako finální cíl.”
+
+— Lex Fridman, AI research scientist
+
+</div>
+</Green>
+
+---
+
+<Think>
+<div style={{
+  textAlign: 'center'
+}}>
+
+# “So when your mom calls and says she needs $500 wired to the Cayman Islands, ask yourself …”
+
+– Jesse Vig, NLP researcher
+
+</div>
+</Think>
+
+---
+
+Díky za pozornost

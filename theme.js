@@ -6,6 +6,7 @@ export default {
   styles: {
     h1: {
       textAlign: 'center',
+      mx: '48px',
     }
   },
   colors: {
