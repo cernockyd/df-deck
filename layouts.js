@@ -1,11 +1,18 @@
 import React from 'react'
 
-export default ({ children, bg='rgba(255,255,255)' }) => (
+console.log('Ahoj...')
+
+export default ({ children, dark }) => (
   <div
     style={{
       width: '100vw',
       height: '100vh',
-      backgroundColor: bg,
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: dark ? 'black' : 'white',
+      color: dark ? 'white' : 'black'
     }}>
     {children}
   </div>
@@ -32,6 +39,7 @@ export const Orange = ({children}) => (
       width: '100vw',
       height: '100vh',
       display: 'flex',
+      flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
       backgroundColor: 'darkorange',
@@ -41,22 +49,7 @@ export const Orange = ({children}) => (
   </div>
 )
 
-export const Think = ({children}) => (
-  <div
-    style={{
-      width: '100vw',
-      height: '100vh',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      backgroundColor: 'white',
-      color: 'black'
-    }}>
-    {children}
-  </div>
-)
-
-export const BgImage = ({children, image}) => (
+export const BgImage = ({children, image, position="center"}) => (
   <div
     style={{
       width: '100vw',
@@ -66,6 +59,7 @@ export const BgImage = ({children, image}) => (
       color: 'white',
       backgroundImage: 'url('+image+')',
       backgroundSize: 'cover',
+      backgroundPosition: position,
       backgroundRepeat: 'no-repeat',
       justifyContent: 'flex-end'
     }}>

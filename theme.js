@@ -4,10 +4,23 @@ export default {
     body: '"Inter", sans-serif',
   },
   styles: {
-    h1: {
+    Slide: {
       textAlign: 'center',
-      mx: '48px',
+      //padding: "0 40px",
     },
+    'p': {
+      mx: 5,
+    },
+    li: {
+      textAlign: 'left'
+    },
+    h1: {
+      mx: 5,
+    },
+    pre: {
+      whiteBreak: 'break-all',
+      whiteSpace: 'pre-wrap'
+    }
   },
   colors: {
     primary: 'blue',

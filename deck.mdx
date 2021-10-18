@@ -1,6 +1,9 @@
 import Provider from './provider'
 import myTheme from './theme'
-import { Green, Orange, BgImage, Think } from './layouts'
+import Source from './source'
+import Layout from './layouts'
+import Iframe from './Iframe'
+import { Green, Orange, BgImage } from './layouts'
 import discriminator from './static/discriminator.png'
 import data from './static/data.png'
 import generator from './static/generator.png'
@@ -8,6 +11,29 @@ import game from './static/gen-discrim.png'
 import trends from './static/trends.png'
 import ian from './static/ian.png'
 import neural from './static/neural-net.png'
+import deepnudeapp from './static/deepnudeapp.png'
+import imageabuse from './static/diagram-telegram-image-abuse.png'
+import faketinderboy from './static/faketinderboy.png'
+import faketindergirl from './static/faketindergirl.png'
+import fakeinstagram from './static/fakeinstagram.png'
+import senior from './static/senior.jpeg'
+import dalimuseum from './static/dalimuseum.jpeg'
+import dali from './static/dali.gif'
+import welcometochechnya from './static/welcometochechnya.jpeg'
+import malariamustdie from './static/malariamustdie.png'
+import dressingroom from './static/dressingroom.png'
+import modelfit from './static/modelfit.jpg'
+import deepfakeactor from './static/deepfakeactor.png'
+import fakeceo from './static/fakeceo.png'
+import nextrembrandt from './static/nextrembrandt.png'
+import firstaiauction from './static/firstaiauction.png'
+import emmaholten from './static/emmaholten.jpeg'
+import balamy from './static/balamy.jpeg'
+import spectre from './static/spectre.png'
+import geminiman from './static/geminiman.png'
+import faceswap from './static/faceswap.png'
+import dfexplainer from './static/dfexplainer.png'
+import dfexplainergif from './static/out_anisa_faces.gif'
 export const theme = { ...myTheme };
 
 # Deepfake
@@ -18,14 +44,14 @@ TIM Mistrovské lekce – Dalibor Černocký KISK FF
 
 ### Co je deepfake?
 
+<Appear>
+
 ### Motivace
-
 ### Negativní dopady DF
-
 ### ‘Pozitivní’ využití
+### Appstore budoucnosti
 
-### Pár slov o tvorbě DF
-
+</Appear>
 
 ---
 
@@ -57,6 +83,13 @@ Větší množství skrytých vrstev umožňuje zachytit složité vztahy.
 
 <img src={game} style={{objectFit: 'contain', width: '80%'}} />
 
+<Source>
+
+Generative Adversarial Networks (GANs) - Computerphile:
+https://www.youtube.com/watch?v=Sw9r8CL98N0
+
+</Source>
+
 ---
 
 <img src={trends} style={{width: '100%'}} />
@@ -69,10 +102,10 @@ Vyhledávanost pojmu deepfake podle Google Trends za posledních 5 let
 
   <div style={{
     alignSelf: 'flex-end',  
-    //marginBottom: '4em',
+    padding: '.2em .4em',
     background: 'black',
   }}>
-    CC BY-SA 4.0 Ian Goodfellow
+    Ian Goodfellow, CC BY-SA 4.0 
   </div>
 
 </BgImage>
@@ -81,18 +114,218 @@ Vyhledávanost pojmu deepfake podle Google Trends za posledních 5 let
 
 <Orange>
 
-# Motivace
+# Motivační kvíz
+
+Připojte se z telefonu adrese **kahoot.it**
 
 </Orange>
 
+<Source dark>
+
+Dvojice reálných a deepfake fotografií: Bergstrom, & West. (2019). Which Face Is Real? https://www.whichfaceisreal.com/
+
+Fotografie opravdových osob jsou z FFHQ datasetu (Creative Commons, public domain images).
+
+</Source>
+
 ---
 
-# Výzvy a statistiky?
+<Iframe src="http://thiscitydoesnotexist.com/">
+
+This City Does Not Exist
+
+</Iframe>
+
+<Source background="white">
+
+http://thiscitydoesnotexist.com/
+
+</Source>
+
+---
+
+<Iframe src="https://thishorsedoesnotexist.com/" img size={256}>
+
+This Horse Does Not Exist
+
+</Iframe>
+
+<Source background="white">
+
+https://thishorsedoesnotexist.com/
+
+</Source>
+
+---
+
+<Iframe src="https://www.thisworddoesnotexist.com/">
+
+This Word Does Not Exist
+
+</Iframe>
+
+<Source background="white">
+
+https://www.thisworddoesnotexist.com/
+
+</Source>
+
+---
+
+<Iframe src="https://thisrentaldoesnotexist.com/">
+
+This Rental Does Not Exist
+
+</Iframe>
+
+<Source background="white">
+
+https://thisrentaldoesnotexist.com/
+
+</Source>
+
+---
+
+<Iframe src="https://thisvesseldoesnotexist.com">
+
+This Vessel Does Not Exist
+
+</Iframe>
+
+<Source background="white">
+
+https://thisvesseldoesnotexist.com
+
+</Source>
+
+---
+
+<Iframe src="https://vole.wtf/this-mp-does-not-exist/">
+
+This Member Of Parliament Does Not Exist
+
+</Iframe>
+
+<Source background="white">
+
+https://vole.wtf/this-mp-does-not-exist/
+
+</Source>
+
+---
+
+<Iframe src="https://theselyricsdonotexist.com/">
+
+These Lyrics Do Not Exist
+
+</Iframe>
+
+<Source background="white">
+
+https://theselyricsdonotexist.com/
+
+</Source>
+
+---
+
+<Iframe src="https://thisbeachdoesnotexist.com/">
+  
+This Beach Does not Exist 
+
+</Iframe>
+
+
+<Source background="white">
+
+https://thisbeachdoesnotexist.com/
+
+</Source>
+
+---
+
+<Iframe src="https://thisanimedoesnotexist.ai/">
+
+This Anime Does not Exist
+
+</Iframe>
+
+<Source background="white">
+
+https://thisanimedoesnotexist.ai/
+
+</Source>
+
+---
+
+# Výzvy a statistiky
 
 ---
 
 # Kvalitní fake profily jsou k nerozeznání od běžných.
 
+---
+
+<img
+  src={fakeinstagram}
+  style={{
+    display: 'block',
+    maxHeight: '90vh',
+    width: 'auto',
+    alignSelf: 'center',
+    justifySelf: 'center'
+  }}
+/>
+
+<Source>
+  
+  Instagram.com
+
+  Bergstrom, & West. (2019). Which Face Is Real? https://www.whichfaceisreal.com/
+
+</Source>
+
+---
+
+<div style={{
+  display: 'grid',
+  gridTemplateColumns: 'repeat(2, 1fr)',
+  gridColumnGap: '30px'
+}}>
+  <img src={faketinderboy} style={{
+    display: 'block',
+    width: '100%',
+    maxHeight: '90vh',
+    height: 'auto',
+    alignSelf: 'center',
+    justifySelf: 'center'
+  }} />
+  <img src={faketindergirl} style={{
+    display: 'block',
+    width: '100%',
+    maxHeight: '90vh',
+    height: 'auto',
+    alignSelf: 'center',
+    justifySelf: 'center'
+  }} />
+</div>
+
+<Source>
+  
+  Tinder iOS app
+
+  Bergstrom, & West. (2019). Which Face Is Real? https://www.whichfaceisreal.com/
+
+</Source>
+
+---
+
+# Facebook zaznamenává miliony pokusů o vytvoření falešných profilů
+
+<Source>
+
+Facebook Transparency. (2021). Community Standards Enforcement Report. https://transparency.fb.com/data/community-standards-enforcement/fake-accounts/facebook
+
+</Source>
 
 ---
 
@@ -100,21 +333,19 @@ Vyhledávanost pojmu deepfake podle Google Trends za posledních 5 let
 
 ---
 
-# Facebook zaznamenává miliony pokusů o vytvoření falešných profilů (2019)
-
----
-
 # ~ 5 %
 
 profilů na Facebooku je falešných
 
+<Source>
+
+Facebook Transparency. (2021). Community Standards Enforcement Report. https://transparency.fb.com/data/community-standards-enforcement/fake-accounts/facebook
+
+</Source>
+
 ---
 
-# A co další soc. sítě?
-
----
-
-# Deepfake videa v roce 2019 podle výzkumu společnosti Deeptrace (dnes Senity)
+# Výzkumy společnosti Senity o deepfake a jeho zneužití na internetu
 
 ---
 
@@ -122,12 +353,24 @@ profilů na Facebooku je falešných
 
 deepfake videí online
 
+<Source>
+
+Sensity. (2019). The State of Deepfakes 2019 Landscape, Threats, and Impact. https://sensity.ai/reports/
+
+</Source>
+
 ---
 
 # 100 %
 
 nárust deepfake online videí proti
-předešlému roku
+roku 2018
+
+<Source>
+
+Sensity. (2019). The State of Deepfakes 2019 Landscape, Threats, and Impact. https://sensity.ai/reports/
+
+</Source>
 
 ---
 
@@ -136,6 +379,14 @@ předešlému roku
 deepfake videí na internetu
 má pornografickou povahu 
 
+<Source>
+
+Sensity. (2019). The State of Deepfakes 2019 Landscape, Threats, and Impact. https://sensity.ai/reports/
+
+Deepfake designer porn: Kikerpill, K. (2020). Choose your stars and studs: The rise of deepfake designer porn. Porn Studies, 7(4), 352–356. https://doi.org/10.1080/23268743.2020.1765851
+
+</Source>
+
 ---
 
 # ~ 100 % 
@@ -143,49 +394,609 @@ má pornografickou povahu
 deepfake videí pornografické povahy
 poškozuje ženy
 
+<Source>
+
+Sensity. (2019). The State of Deepfakes 2019 Landscape, Threats, and Impact. https://sensity.ai/reports/
+
+</Source>
+
 ---
 
-TODO: X-ray app
+<img src={deepnudeapp} style={{objectFit: 'contain', width: '60%'}} />
+
+Aplikace Deepnudeapp (stažena z internetu)
+
+<Source>
+
+Deepnudeapp. (n.d.). https://www.deepnudeapp.co/
+
+Cole, S. (2019, June 27). Creator of DeepNude, App That Undresses Photos of Women, Takes It Offline. https://www.vice.com/en/article/qv7agw/deepnude-app-that-undresses-photos-of-women-takes-it-offline
+
+
+</Source>
+
+---
+
+<img src={imageabuse} style={{objectFit: 'contain', height: '90vh'}} />
+
+<Source>
+
+Sensity Team. (2020, October 20). Automating Image Abuse: Deepfake bots on Telegram. https://sensity.ai/blog/deepfake-detection/automating-image-abuse-deepfake-bots-on-telegram/
+
+</Source>
 
 ---
 
 # ~ 104,852
 
-žen „svlečeno“ pomocí deepfake botů na Telegramu do konce června 2020 
+žen „svlečeno“ pomocí deepfake botů<br/>na Telegramu do konce června 2020 
+
+<Source>
+
+Sensity. (2020). Automating Image Abuse: Deepfake bot on Telegram. https://sensity.ai/reports/
+
+</Source>
 
 ---
 
 # 198 %
 
-nárust využití deepfake botů pro „svlečení“ za poslední 3 měsíce (k říjnu 2020)
+nárust využití deepfake botů pro „svlečení“<br/>za poslední 3 měsíce (k říjnu 2020)
+
+<Source>
+
+Sensity. (2020). Automating Image Abuse: Deepfake bot on Telegram. https://sensity.ai/reports/
+
+</Source>
 
 ---
 
-# Co byste v takové situaci dělali?
+# Co byste dělali v roli oběti?
 
 ---
 
-# Může automatická detekce DF přispět k jeho zlepšení?
+## “When I was sixteen, I emailed some nude photos of myself to a boyfriend. Four years later, in 2011, a stranger hacked my email…”
+
+— Emma Holten, Danish-Swedish activist
+
+<Source>
+
+Davies, S. (2020, June 5). Once a target of revenge porn, this Danish activist is reclaiming her identity. Thomson Reuters Foundation. https://news.trust.org/item/20200605133037-2ushw
+
+</Source>
 
 ---
 
-todo: detekce, fotka
+<Layout dark>
+
+<img src={emmaholten} />
+
+</Layout>
+
+<Source dark background="black">
+
+http://www.emmaholten.com
+
+</Source>
 
 ---
 
-# “So when your mom calls and says she needs $500 wired to the Cayman Islands, ask yourself …”
-
-– Jesse Vig, NLP researcher
+# Politika
 
 ---
 
-# “Deepfakes reduce the amount of information that videos carry to viewers”
+### Mezinárodní aféry typu<br/>Američan v Afghánu pálí Korán
+
+<Appear>
+
+### Falešná vyjádření a komentáře
+### Únik fake rozhovoru
+### Méně zjevné: absence<br/>nebo prezence fanoušků 
+
+</Appear>
+
+---
+
+<BgImage image={fakeceo} position="top">
+
+</BgImage>
+
+<Source background="white">
+
+https://www.fastcompany.com/90379001/criminals-are-using-deepfakes-to-impersonate-ceos
+
+</Source>
+
+<Notes>
+
+Fake CEOs asking for cash
+
+Not yet
+- Fake bankrupcy annoucement 
+- Commiting fraud on a tape
+
+</Notes>
+
+---
+
+# Legislativa a regulace
+
+<Notes>
+
+Státy nejsou právně připraveny na Deepfake a jeho budoucí rozvoj. DF navíc zasahuje do více oblastí: soukromí, autorské právo. Celkový zákaz technologie by
+znamenal nemožnost jejího pozitivního využití.
+
+</Notes>
+
+<Source>
+
+Westerlund, M. (2019). The Emergence of Deepfake Technology: A Review. Technology Innovation Management Review, 9(11), 39–52. https://doi.org/10.22215/timreview/1282
+
+Kikerpill, K. (2020). Choose your stars and studs: The rise of deepfake designer porn. Porn Studies, 7(4), 352–356. https://doi.org/10.1080/23268743.2020.1765851
+
+</Source>
+
+---
+
+# Měli bychom předpokládat, že cokoli může být nepravda?
+
+<Notes>
+
+Vzdělávání, povědomí o AI a deepfake.
+
+Informační overload. Spoléháme na autority a instituce.
+
+</Notes>
+
+---
+
+# Autentizace obsahu pomocí digitálního vodoznaku
+
+<Appear>
+
+Klíč, který je porušen pokud dojde k změně obsahu videa.
+
+Ukládání informace o zdroji videa do blockchain databáze.
+
+</Appear>
+
+<Notes>
+
+V případě fotografií by klíč by mohl být v šumu.
+
+</Notes>
+
+---
+
+# Detekce DF může paradoxně vést k jeho zkvalitnění. 
+
+---
+
+<img src={game} style={{objectFit: 'contain', width: '80%'}} />
+
+<Source>
+
+Generative Adversarial Networks (GANs) - Computerphile:
+https://www.youtube.com/watch?v=Sw9r8CL98N0
+
+de Ruiter, A. (2021). The Distinct Wrong of Deepfakes. Philosophy & Technology. https://doi.org/10.1007/s13347-021-00459-2
+
+</Source>
+
+---
+
+# Pozitivní využití?
+
+---
+
+<Layout dark>
+<Iframe src="https://thischemicaldoesnotexist.com/">
+
+## Výzkum materiálů a léků
+
+</Iframe>
+</Layout>
+
+<Notes>
+
+Podle Westerlunda (2019), je testováno využití DF technologií k tvorbě
+ virtuálních molekul, ke zrychlení vývoje nových materiálů a léků.
+
+</Notes>
+
+<Source>
+
+https://thischemicaldoesnotexist.com/
+
+Westerlund, M. (2019). The Emergence of Deepfake Technology: A Review. Technology Innovation Management Review, 9(11), 39–52. https://doi.org/10.22215/timreview/1282
+
+</Source>
+
+---
+
+<img src={senior} />
+
+<Notes>
+
+# Společník pro seniory v roce 2025?
+
+</Notes>
+
+<Source background="black" dark>
+
+Wright, D. (2019). Creating Companions for Senior Citizens with Technologies That Mimic People. 2019 IEEE SmartWorld, Ubiquitous Intelligence & Computing, Advanced & Trusted Computing, Scalable Computing & Communications, Cloud & Big Data Computing, Internet of People and Smart City Innovation (SmartWorld/SCALCOM/UIC/ATC/CBDCom/IOP/SCI), 311–316. https://doi.org/10.1109/SmartWorld-UIC-ATC-SCALCOM-IOP-SCI.2019.00097
+
+</Source>
+
+---
+
+# Znovuzrození historických postav
+
+<Notes>
+
+Muzea, history lessons, education.
+
+Moznost vytvorit zvyseni pozitivniho afektu pro studenty.
+
+</Notes>
+
+<Source>
+
+The Dalí Museum
+
+de Ruiter, A. (2021). The Distinct Wrong of Deepfakes. Philosophy & Technology. https://doi.org/10.1007/s13347-021-00459-2
+
+</Source>
+
+---
+
+<img src={dalimuseum} />
+
+<Source dark background="black">
+
+Lee, D. (2019, May 10). Deepfake Salvador Dalí takes selfies with museum visitors. The Verge. https://www.theverge.com/2019/5/10/18540953/salvador-dali-lives-deepfake-museum
+
+de Ruiter, A. (2021). The Distinct Wrong of Deepfakes. Philosophy & Technology. https://doi.org/10.1007/s13347-021-00459-2
+
+</Source>
+
+---
+
+<Layout dark>
+
+  <img src={dali} />
+
+</Layout>
+
+<Source dark background="black">
+
+Lee, D. (2019, May 10). Deepfake Salvador Dalí takes selfies with museum visitors. The Verge. https://www.theverge.com/2019/5/10/18540953/salvador-dali-lives-deepfake-museum
+
+de Ruiter, A. (2021). The Distinct Wrong of Deepfakes. Philosophy & Technology. https://doi.org/10.1007/s13347-021-00459-2
+
+</Source>
+
+---
+
+# J. F. Kennedy delivering speech
+
+<Source>
+
+de Ruiter, A. (2021). The Distinct Wrong of Deepfakes. Philosophy & Technology. https://doi.org/10.1007/s13347-021-00459-2
+
+</Source>
+
+---
+
+# Hlas pro němé?
+
+<Source>
+
+de Ruiter, A. (2021). The Distinct Wrong of Deepfakes. Philosophy & Technology. https://doi.org/10.1007/s13347-021-00459-2
+
+</Source>
+
+---
+
+# Osobní mentor/ka?
+
+<Notes>
+
+  Mohl by nám vůbec něco říct? 
+
+</Notes>
+
+---
+
+<BgImage image={spectre}>
+
+<div style={{alignSelf: 'center'}}>
+
+# “Spectre invites audiences in, to worship at the altar of Dataism<br/>with the gods of Silicon Valley.”
+
+</div>
+
+</BgImage>
+
+<Source background="black" dark>
+
+Posters, B., & Howe, D. (2019). ‘SPECTRE’ (2019). http://billposters.ch/projects/spectre/
+
+</Source>
+
+---
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/341794473?h=2dea97c9b1" width="1280" height="720" frameborder="0">
+</iframe>
+
+<Source background="black" dark>
+
+Posters, B., & Howe, D. (2019). ‘SPECTRE’ (2019). http://billposters.ch/projects/spectre/
+
+</Source>
+
+---
+
+<Iframe src="https://thisartworkdoesnotexist.com/" img size={512}>
+
+This Artwork Does Not Exist
+
+</Iframe>
+
+<Source background="white">
+
+https://thisartworkdoesnotexist.com/
+
+</Source>
+
+---
+
+<BgImage image={nextrembrandt}>
+
+</BgImage>
+
+<Source background="black" dark>
+
+https://www.nextrembrandt.com/
+
+</Source>
+
+---
+
+# Edmond Belamy, 2018, created by GAN. Sold for $432,500.
+
+---
+
+<Layout dark>
+
+<img src={firstaiauction} />
+
+</Layout>
+
+<Source background="black" dark>
+
+https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx
+
+</Source>
+
+---
+
+<BgImage image={balamy}>
+
+</BgImage>
+
+---
+
+<BgImage image={geminiman}>
+
+</BgImage>
+
+<Source dark background="black">
+
+https://www.wired.com/story/game-changing-tech-gemini-man-will-smith/
+
+</Source>
+
+---
+
+<BgImage image={welcometochechnya}>
+
+<div style={{alignSelf: 'flex-end', justifySelf: 'center'}}>
+
+Obličej dobrovolníka v dokumentu “Welcome to Chechnya” použit ke skrytí identity perzekuovaného homosexuála.
+
+</div>
+
+</BgImage>
+
+<Source dark background="black">
+
+de Ruiter, A. (2021). The Distinct Wrong of Deepfakes. Philosophy & Technology. https://doi.org/10.1007/s13347-021-00459-2
+
+</Source>
+
+---
+
+<BgImage image={deepfakeactor} position="center">
+
+</BgImage>
+
+<Source dark background="black">
+
+Hao, K. (2020, October 9). Inside the strange new world of being a deepfake actor. MIT Technology Review. https://www.technologyreview.com/2020/10/09/1009850/ai-deepfake-acting/
+
+</Source>
+
+---
+
+<img src={dfexplainer} style={{
+  minWidth: '70vw',
+  maxWidth: '100%',
+}} />
+
+<Source>
+
+Zucconi, A. (2018, March 14). Understanding the Technology Behind DeepFakes. https://www.alanzucconi.com/2018/03/14/understanding-the-technology-behind-deepfakes/
+
+</Source>
+
+---
+
+<img src={dfexplainergif} style={{
+  maxWidth: '800px',
+  width: '100%',
+}} />
+
+<div style={{
+  display: 'grid',
+  gridTemplateColumns: 'repeat(2, 1fr)',
+  gridColumnGap: '30px'
+}}>
+  <div style={{alignSelf: 'center'}}>
+
+  “On the left, faces of UI Artist Anisa Sanusi are extracted from a video and aligned.”
+
+  </div>
+  <div style={{alignSelf: 'center'}}>
+
+  “On the right, a trained neural network is reconstructing the face of game designer Henry Hoffman to match Anisa’s expression.”
+  
+  </div>
+</div>
+
+
+
+<Source>
+
+Zucconi, A. (2018, March 14). Understanding the Technology Behind DeepFakes. https://www.alanzucconi.com/2018/03/14/understanding-the-technology-behind-deepfakes/
+
+</Source>
+
+---
+
+# Marketing a personalizace
+
+---
+
+<BgImage image={malariamustdie}>
+
+</BgImage>
+
+<Source dark background="black">
+
+de Ruiter, A. (2021). The Distinct Wrong of Deepfakes. Philosophy & Technology. https://doi.org/10.1007/s13347-021-00459-2
+
+Westerlund, M. (2019). The Emergence of Deepfake Technology: A Review. Technology Innovation Management Review, 9(11), 39–52. https://doi.org/10.22215/timreview/1282
+
+</Source>
+
+---
+
+# Fashion models as a service
+
+<Source>
+
+Westerlund, M. (2019). The Emergence of Deepfake Technology: A Review. Technology Innovation Management Review, 9(11), 39–52. https://doi.org/10.22215/timreview/1282
+
+</Source>
+
+---
+
+<BgImage image={dressingroom} position="center">
+
+</BgImage>
+
+<Source dark background="black">
+
+Hall, C. (2021, August 23). Virtual dressing room startup Revery.ai applying computer vision to the fashion industry. TechCrunch. https://techcrunch.com/2021/08/23/virtual-dressing-room-startup-revery-ai-applying-computer-vision-to-the-fashion-industry/
+
+</Source>
+
+---
+
+<BgImage image={modelfit} position="center">
+
+</BgImage>
+
+<Source dark background="black">
+
+Byung-yeul, B. (n.d.). AR fitting room enhances customer experience. https://www.koreatimes.co.kr/www/tech/2018/10/133_257518.html
+
+Oblečení na osobním avatarovi? Oblečení na osobním avatarovi
+
+Westerlund, M. (2019). The Emergence of Deepfake Technology: A Review. Technology Innovation Management Review, 9(11), 39–52. https://doi.org/10.22215/timreview/1282
+
+</Source>
+
+<Notes>
+
+Oblečení na osobním avatarovi
+
+</Notes>
+
+---
+
+<Layout dark>
+
+</Layout>
+
+<Source dark>
+
+ZERO HP LOVECRAFT. (n.d.). Appstore of the futue. https://zerohplovecraft.wordpress.com/app-store-of-the-future/
+
+</Source>
+
+<Notes>
+
+# App store budoucnosti
+
+GANs provozované ve vašich chytrých brýlích
+
+</Notes>
+
+---
+
+# Beauty app
+
+Úprava vašeho digitálního vzhledu,<br/>který uvidí ostatní nositelé brýlí.
+
+---
+
+# Prosopag app
+
+Pozmění každému obličej, aby nikdo nikdy<br/>nevypadal povědomě.
+
+---
+
+# Superman app
+
+Sociální síť umožňující vidět siluety<br/>ostatních uživatelů přes zdi.
+
+---
+
+# SafeSpace app
+
+Jako adblock, ale na rasisty, sexisty,<br/>homofoby, transfoby, fašisty atd.
+
+---
+
+# Nightmode app
+
+---
+
+# “Deepfakes reduce the amount of information that videos carry to viewers.”
 
 <Notes>
 
 Lidé si zvykli, že tvořit textový obsah je poměrně snadné a že se dezinformančí weby se snaží vypadat jako ty seriózní. Podobně si budou muset zvyknout i na obrazový materiál.
 
 </Notes>
+
+<Source>
+
+Fallis, D. (2020). The Epistemic Threat of Deepfakes. Philosophy & Technology. https://doi.org/10.1007/s13347-020-00419-2
+
+</Source>
 
 ---
 
@@ -203,21 +1014,46 @@ Lidé si zvykli, že tvořit textový obsah je poměrně snadné a že se dezinf
 
 ---
 
+# “So when your mom calls and says she needs $500 wired to the Cayman Islands, ask yourself …”
 
-# Měli bychom předpokládat, že cokoli může být nepravda?
-
-<Notes>
-
-Informační overload. 
-
-</Notes>
+– Jesse Vig, NLP researcher
 
 ---
 
-# Pozitivní využití?
+# Tvorba DF
+
+- Potřebujeme 2 videa
+  - zdrojové (originál, který chceme upravit),
+  - cílové (odkud chceme vzít nový obličej).
+    - Cílové video by mělo co nejvíce odpovídat<br/>zdrojovému (světlem, mimikou).
+- Musíme vystřihnout nebo překrýt přebytečné<br/>obličeje v cílovém videu.
+- Udělat postprodukci.
 
 ---
 
+# Pomocí softwaru
+
+- Vystřihnout obličeje a uložit jejich polohuna jednotlivých<br/>snímcích 
+
+- Naučit model, který získá vlastnosti zdrojového<br/>a cílového obličeje a vztahy mezi nimi pro jejich záměnu
+
+- Na základě vlastností originálního obličeje (světlo,<br/>mimika, úhel) vygenerovat výsledný obličej a umístit<br/>ho do originálního videa.
+
 ---
 
-Díky za pozornost
+<BgImage image={faceswap} position="top">
+
+</BgImage>
+
+<Source dark background="black">
+
+https://faceswap.dev/
+
+</Source>
+
+---
+
+# Díky za pozornost!
+
+Slidy jsou dostupné na:<br/>https://timdf.cernockyd.com
+
